@@ -1,4 +1,4 @@
-package edu.estatuas;
+package edu.estatuas.domain.estacion;
 
 public class Estacion {
     private final int id;
