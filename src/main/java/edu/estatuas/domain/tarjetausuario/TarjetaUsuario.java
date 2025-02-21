@@ -18,6 +18,7 @@ public class TarjetaUsuario {
         this.activada= valor;
     }
 
+    @Override
     public String toString() {
         return id;
     }
