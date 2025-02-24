@@ -8,7 +8,7 @@ class Anclaje {
     boolean isOcupado(){
         return this.ocupado;
     }
-
+   // public String toString();
 
 
 
