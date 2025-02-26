@@ -42,7 +42,7 @@
             <index>true</index>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>edu.estatuas.Dni</mainClass>
+              <mainClass>edu.estatuas.bicipalma</mainClass>
             </manifest>
             <manifestEntries>
               <mode>development</mode>
