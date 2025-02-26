@@ -1,16 +1,18 @@
 package edu.estatuas.domain.estacion;
 
+import edu.estatuas.domain.bicicleta.Bicicleta;
+
 class Anclaje {
 
     private boolean ocupado = false;
-    private Movil bici = null;
+    private Bicicleta bici = null;
 
     Anclaje() {}
     boolean isOcupado(){
         return this.ocupado;
     }
 
-    Movil getBici() { return this.bici; }
+    Bicicleta getBici() { return this.bici; }
 
     void anclarBici() { this.bici = bici;
     this.ocupado = true; }
@@ -22,12 +24,4 @@ class Anclaje {
     public String toString() {
         return "Número de anclajes" + Boolean.toString(isOcupado());
     }
-
-
-
-
-
-
-
-
 }
