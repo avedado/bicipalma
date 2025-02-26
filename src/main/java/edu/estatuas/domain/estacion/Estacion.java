@@ -1,4 +1,5 @@
 package edu.estatuas.domain.estacion;
+import edu.estatuas.domain.estacion.Anclaje;
 
 public class Estacion {
     private final int id;
@@ -23,7 +24,6 @@ public class Estacion {
         return this.numeroAnclajes;
     }
 
-    @Override
     public String toString() {
        return "Estacion [id=" + getId() + ", direccion=" + getDireccion() + "numero de anclajes=" + numeroAnclajes() + "]";
     }
@@ -32,7 +32,21 @@ public class Estacion {
         /*system.out.println();*/
     }
 
+    public int anclajesLibres() {
+     return this.numeroAnclajes;
+    }
 
+   // public void anclarBicicleta(Movil) {
+        int posicion = 0;
+        int numeroAnclajes = posicion + 1;
 
+        for(Anclaje anclaje: anclajes()) {
+            if(anclaje.isOcupado()) {
+                anclajes.ocuparAnclaje(posicion, bici);
+                mostrarAnclaje(bici, numeroAnclaje);
+                break;
+            } else { posicion ++;
+        }
+    } numeroAnclaje++
 
 }
