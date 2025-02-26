@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 class Anclajes {
 
-    private final Anclaje[] anclajes
+    private final Anclaje[] anclajes;
 
     Anclajes(int numeroAnclajes) {
         this.anclajes = new Anclaje[numeroAnclajes];
